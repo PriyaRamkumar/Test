@@ -29,7 +29,7 @@ public class Test extends Drivers{
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	      driver.navigate().to(baseUrl);
 	      driver.manage().window().maximize();
-	      System.out.println("Hi");
+	     
 	    //  Assert.assertTrue(driver.findElements(By.xpath("//section[@class='radionav opened']")).size() == 1);
 
 	}
