@@ -185,10 +185,7 @@ public class Test extends Drivers{
 
 	@Then("^I can see the following categories$")
 	public void i_can_see_the_following_categories(DataTable arg1) throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-	    // For automatic transformation, change DataTable to one of
-	    // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
-	    // E,K,V must be a scalar (String, Integer, Date, enum etc)
+	    
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//a[@data-panelid='categories']")).click();
 		
@@ -219,4 +216,229 @@ public class Test extends Drivers{
 		
 	}
 	
+
+
+@Given("^I can see Local Radio link inside the Stations drawer$")
+public void i_can_see_Local_Radio_link_inside_the_Stations_drawer() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    
 }
+
+@When("^I select the Local Radio link in the Stations drawer$")
+public void i_select_the_Local_Radio_link_in_the_Stations_drawer() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+   
+}
+
+@Then("^the stations page is open$")
+public void the_stations_page_is_open() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    
+}
+
+@Then("^Stations page contains section listing all the local networks$")
+public void stations_page_contains_section_listing_all_the_local_networks() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+  
+}
+
+
+@When("^I select a Radio (\\d+) from the station drawer$")
+public void i_select_a_Radio_from_the_station_drawer(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    
+}
+
+@Then("^I am taken to the appropriate Radio (\\d+) homepage$")
+public void i_am_taken_to_the_appropriate_Radio_homepage(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    
+}
+
+@When("^I select a Radio (\\d+)Xtra from the station drawer$")
+public void i_select_a_Radio_Xtra_from_the_station_drawer(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    
+}
+
+@Then("^I am taken to the appropriate Radio (\\d+)Xtra homepage$")
+public void i_am_taken_to_the_appropriate_Radio_Xtra_homepage(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    
+}
+
+@When("^I select a Radio (\\d+) Extra from the station drawer$")
+public void i_select_a_Radio_Extra_from_the_station_drawer(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+   
+}
+
+@Then("^I am taken to the appropriate Radio (\\d+) Extra homepage$")
+public void i_am_taken_to_the_appropriate_Radio_Extra_homepage(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    
+}
+
+@When("^I select a Radio (\\d+) live from the station drawer$")
+public void i_select_a_Radio_live_from_the_station_drawer(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    
+}
+
+@Then("^I am taken to the appropriate Radio (\\d+) live homepage$")
+public void i_am_taken_to_the_appropriate_Radio_live_homepage(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+   
+}
+
+@When("^I select a Radio (\\d+) live sports extra from the station drawer$")
+public void i_select_a_Radio_live_sports_extra_from_the_station_drawer(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+   
+}
+
+@Then("^I am taken to the appropriate Radio (\\d+) live sports extra homepage$")
+public void i_am_taken_to_the_appropriate_Radio_live_sports_extra_homepage(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+   
+}
+
+@When("^I select a Radio (\\d+) Music from the station drawer$")
+public void i_select_a_Radio_Music_from_the_station_drawer(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    
+}
+
+@Then("^I am taken to the appropriate Radio (\\d+) Music homepage$")
+public void i_am_taken_to_the_appropriate_Radio_Music_homepage(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+   
+}
+
+@When("^I select a Asian Network from the station drawer$")
+public void i_select_a_Asian_Network_from_the_station_drawer() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+   
+}
+
+@Then("^I am taken to the appropriate Asian Network homepage$")
+public void i_am_taken_to_the_appropriate_Asian_Network_homepage() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+   
+}
+
+@When("^I select a World Service from the station drawer$")
+public void i_select_a_World_Service_from_the_station_drawer() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    
+}
+
+@Then("^I am taken to the appropriate World Service homepage$")
+public void i_am_taken_to_the_appropriate_World_Service_homepage() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+   
+}
+
+@When("^I select a Radio Scotland from the station drawer$")
+public void i_select_a_Radio_Scotland_from_the_station_drawer() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+   
+}
+
+@Then("^I am taken to the appropriate Radio Scotland homepage$")
+public void i_am_taken_to_the_appropriate_Radio_Scotland_homepage() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    
+}
+
+@When("^I select a Radio nan G?idheal Radio (\\d+) from the station drawer$")
+public void i_select_a_Radio_nan_G_idheal_Radio_from_the_station_drawer(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+   
+}
+
+@Then("^I am taken to the appropriate Radio nan G?idheal Radio (\\d+) homepage$")
+public void i_am_taken_to_the_appropriate_Radio_nan_G_idheal_Radio_homepage(int arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+   
+}
+
+@When("^I select a Radio Ulster from the station drawer$")
+public void i_select_a_Radio_Ulster_from_the_station_drawer() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+   
+}
+
+@Then("^I am taken to the appropriate Radio Ulster homepage$")
+public void i_am_taken_to_the_appropriate_Radio_Ulster_homepage() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    
+}
+
+@When("^I select a Radio Foyle from the station drawer$")
+public void i_select_a_Radio_Foyle_from_the_station_drawer() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+   
+}
+
+@Then("^I am taken to the appropriate Radio Foyle homepage$")
+public void i_am_taken_to_the_appropriate_Radio_Foyle_homepage() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+  
+}
+
+@When("^I select a Radio Wales from the station drawer$")
+public void i_select_a_Radio_Wales_from_the_station_drawer() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    
+}
+
+@Then("^I am taken to the appropriate Radio Wales homepage$")
+public void i_am_taken_to_the_appropriate_Radio_Wales_homepage() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+   
+}
+
+@When("^I select a Radio Cymru from the station drawer$")
+public void i_select_a_Radio_Cymru_from_the_station_drawer() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    
+}
+
+@Then("^I am taken to the appropriate Radio Cymru homepage$")
+public void i_am_taken_to_the_appropriate_Radio_Cymru_homepage() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+   
+}
+
+@When("^I select a Local Radio from the station drawer$")
+public void i_select_a_Local_Radio_from_the_station_drawer() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+   
+}
+
+@Then("^I am taken to the appropriate Local Radio homepage$")
+public void i_am_taken_to_the_appropriate_Local_Radio_homepage() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+   
+}
+
+@Given("^I am on the BBC website$")
+public void i_am_on_the_BBC_website() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+   
+}
+
+@When("^I select the iplayer Radio logo$")
+public void i_select_the_iplayer_Radio_logo() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+   
+}
+
+@Then("^I am taken to the radio homepage$")
+public void i_am_taken_to_the_radio_homepage() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    
+}
+}
+

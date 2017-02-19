@@ -53,24 +53,26 @@ When I select Categories in the radio nav
 And I select the all categories link
 Then I am on the all categories page
 
-
-Scenario: Selecting stations in the radionav should open links to all national and nations stations
+Scenario Outline: Selecting stations in the radionav should open links to all national and nations stations
 Given I can see the radio nav
-And I select the Stations in the radio nav
+And I select <section> in the radio nav
 And I can see Local Radio link inside the Stations drawer
 When I select the Local Radio link in the Stations drawer
 Then the stations page is open
 And Stations page contains section listing all the local networks
+Examples: of sections
+| section |
+| Stations |
 
 
 Scenario Outline: Selecting a network from a Stations drawer the user is taken to the appropriate network homepage
 Given I can see the radio nav
-When I select the Stations in the radio nav
+When I select Stations in the radio nav
 And I select a <network> from the station drawer
 Then I am taken to the appropriate <network> homepage
-Examples: of networks
-| network |
-| Radio 1 |
+Examples: networks 
+| network | 
+| Radio 1 | 
 | Radio 1Xtra |
 | Radio 2 |
 | Radio 3 |
@@ -78,7 +80,7 @@ Examples: of networks
 | Radio 4 Extra |
 | Radio 5 live |
 | Radio 5 live sports extra |
-| Radio 6 Music |
+| Radio 6 Music | 
 | Asian Network |
 | World Service |
 | Radio Scotland |
